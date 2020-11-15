@@ -36,7 +36,7 @@ Visit [caseIt](https://ecomm-23f2e.web.app) to find out more!
 
 ### Motivation
 
-As someone who always looks for mobile phone cases with unique and cool design, I wanted to create an ecommerce platform where I can see all available designs for sale, search for it easily using keywords and last but not least the purchasing process should be seamless. 
+As someone who always looks for mobile phone cases with unique and cool designs, I wanted to create an ecommerce platform where I can see all available designs for sale, search for it easily using keywords and last but not least the purchasing process should be seamless. 
 
 Next, I also got to experience the process of building an ecommerce platform from scratch albeit it being a simple one. I also got to ponder upon issues such as the edge cases to be considered, the technical difficulties and also how best to make my platform as appealing to other users as possible. 
 
