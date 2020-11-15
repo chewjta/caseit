@@ -28,9 +28,9 @@ Visit [caseIt](https://ecomm-23f2e.web.app) to find out more!
 
 #### App Demo:
 
-![auth](wireframes/home_page.gif)
+![demo1](misc/casit_1.gif)
 
-![demo](wireframes/interface.gif)
+![demo2](misc/caseit_2.gif)
 
 ---
 
