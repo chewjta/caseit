@@ -1,4 +1,4 @@
-# Casify
+# caseIt
 
 ## Content Page
   * [Description](#description)
