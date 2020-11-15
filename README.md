@@ -16,7 +16,16 @@ Visit [caseIt](https://ecomm-23f2e.web.app) to find out more!
 
 ---
 
+
 ### Features
+
+#### App Demo:
+
+![demo1](misc/casit_1.gif)
+
+![demo2](misc/caseit_2.gif)
+
+---
 
 1. User sign up/ sign in (Auth)
 2. One click add to basket / remove from basket (Using Redux)
@@ -26,13 +35,7 @@ Visit [caseIt](https://ecomm-23f2e.web.app) to find out more!
 6. Database storage of user's order history using Firebase Functions
 7. Mobile Responsive 
 
-#### App Demo:
 
-![demo1](misc/casit_1.gif)
-
-![demo2](misc/caseit_2.gif)
-
----
 
 ### Motivation
 
