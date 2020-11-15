@@ -1,71 +1,69 @@
-# Getting Started with Create React App
+# Casify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Content Page
+  * [Description](#description)
+  * [Features](#features)
+  * [Achievement](#achievement)
+  * [Technologies](#technologies)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+### Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+caseIt is a one stop gallery and ecommerce platform for iPhone cases. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Visit [caseIt](https://ecomm-23f2e.web.app) to find out more!
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
 
-### `npm run build`
+1. User sign up/ sign in (Auth)
+2. One click add to basket / remove from basket (Using Redux)
+3. Redux state persist using redux-persist
+4. Live search using Fuse.js
+5. Payment enabled using Stripe.js API
+6. Database storage of user's order history using Firebase Functions
+7. Mobile Responsive 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### App Demo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![auth](wireframes/home_page.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![demo](wireframes/interface.gif)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Motivation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As someone who always looks for mobile phone cases with unique and cool design, I wanted to create an ecommerce platform where I can see all available designs for sale, search for it easily using keywords and last but not least the purchasing process should be seamless. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Next, I also got to experience the process of building an ecommerce platform from scratch albeit it being a simple one. I also got to ponder upon issues such as the edge cases to be considered, the technical difficulties and also how best to make my platform as appealing to other users as possible. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Technologies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### ReactJS/Redux
 
-### Code Splitting
+1. React Routers for accessing different pages, i.e. signin/signout page, home page, payment page, checkout page etc.  
+2. React Hooks
+3. Redux for state management and creating actions such as adding item to basket, removing item from basket, clearing basket
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### Firebase / NodeJS/ Express
 
-### Analyzing the Bundle Size
+1. Firebase for authentication
+2. Firestore for items database storage
+3. Firebase functions with NodeJS/Express to store user's order history in Firestore. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##### Misc.
 
-### Making a Progressive Web App
+1. Fuse.js (Live keyword search feature)
+2. Stripe.js (enable payment for products in basket)
+3. Mobile Responsiveness using CSS media queries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# phone-case-ecommerce
